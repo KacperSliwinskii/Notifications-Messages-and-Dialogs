@@ -71,9 +71,9 @@ function createNotification() {
     //
 	cordova.plugins.notification.local.schedule({ 
     	id: 	1,
-        title: 	"Hey you",
-        text: 	"This is an example notification",
-        trigger: { in: 10, unit: 'second' }
+        title: 	"Hey you!",
+        text: 	"Get Back To Work!",
+        trigger: { in: 30, unit: 'second' }
    	});
     
 }
